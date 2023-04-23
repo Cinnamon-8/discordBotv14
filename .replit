@@ -1,4 +1,4 @@
-entrypoint = "index.js"
+entrypoint = "Em/index.js"
 
 hidden = [".config", "package-lock.json"]
 
@@ -86,4 +86,4 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx}"
 start = "typescript-language-server --stdio"
 
 [deployment]
-run = ["sh", "-c", "node kajdev/index.js"]
+run = ["sh", "-c", "node Em/index.js"]

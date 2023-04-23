@@ -15,7 +15,7 @@ module.exports = {
 
   async execute(interaction) {
     const channel = await interaction.guild.channels.cache.get(
-      "1033249144292261928"
+      "1099243872271466556"
     );
     if (!channel) return;
     interaction.reply({ content: "Opened Botshop for everyone", ephemeral: true })
@@ -36,7 +36,7 @@ module.exports = {
               "5$ 1month | 60$ 1year",
           },
           {
-            label: "Fun and Nsfw Bot",
+            label: "Fun  Bot",
             value: "option2",
             description: "1$ 1month | 12$ 1year",
           },
@@ -47,11 +47,11 @@ module.exports = {
           },
         ])
     );
-    const link = `https://kajdev.org`;
+    const link = `https:/github.com/Cinnamon-8`;
     const buttons = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setURL(link)
-        .setLabel("KajDev")
+        .setLabel("Cinnamon-8")
         .setStyle(ButtonStyle.Link)
     );
     const MESSAGE = await channel.send({

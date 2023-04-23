@@ -4,7 +4,7 @@ const {
   Partials,
   Collection,
 } = require("discord.js");
-
+require ('./server.js');
 const { loadEvents } = require("./Handlers/eventHandler");
 const { loadCommands } = require("./Handlers/commandHandler");
 

@@ -47,7 +47,7 @@ module.exports = {
         interaction.reply({
           embeds: [
             embed
-              .setAuthor({ name: "Config updated", iconURL: "https://kajdev.org/img/400x400_logo.png" })
+              .setAuthor({ name: "Config updated", iconURL: "" })
               .setDescription(`**${a}** the developer applications!`)
               .setTimestamp()
               .setColor("#235ee7"),
@@ -57,7 +57,7 @@ module.exports = {
         await interaction.reply({
           embeds: [
             embed
-              .setAuthor({ name: "Config updated", iconURL: "https://kajdev.org/img/400x400_logo.png" })
+              .setAuthor({ name: "Config updated", iconURL: "" })
               .setDescription(`**${a}** the developer applications!`)
               .setTimestamp()
               .setColor("#235ee7"),
